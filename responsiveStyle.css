@@ -1,4 +1,27 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 559px) {
+    body {
+        margin: 0px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    .name-title {
+        margin-left: 20px;
+        order: -1;
+    }
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 0.3em;
+    }
+    .name-title h2 {
+        font-size: 1em;
+    }
+    .ninja_logo {
+        width: 60px;
+        height: 60px;
+        margin-top: 17px;
+        margin-right: 10px;
+    }
     .cover-image {
         width: 100%;
         height: auto;
@@ -7,12 +30,60 @@
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
+        box-sizing: border-box;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .work-cover {
+        border-radius: 0px;
     }
     .info {
         display: flex;
+        justify-content: space-between;
     }
     .info a {
-        margin-left: auto;
+        margin-right: 20px;
+        padding-top: 15px;
+    }
+    .footer-line {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    footer {
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 560px) and (max-width:840px) {
+    .cover-image {
+        height: auto;
+    }
+    .featured-work {
+        max-width: 670px;
+    }
+    .container {
+        max-width: 670px;
+    }
+    .work-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        box-sizing: border-box;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .work-cover {
+        background-position: center;
+        height: 300px;
+        border-radius: 0%;
+    }
+    .info {
+        display: flex;
+        justify-content: space-between;
+    }
+    .info a {
+        margin-right: 30px;
         padding-top: 15px;
     }
 }
