@@ -1,4 +1,3 @@
-prompt("hi");
-$(".work-cover").mouseenter(function() {
-    $(this).fadeOut("slow");
-})
+$(".work-cover").click(function() {
+    prompt("mouse enetered");
+});
