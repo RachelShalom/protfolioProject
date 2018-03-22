@@ -1,7 +1,6 @@
 html body {
     width: auto;
     height: 100%;
-    overflow-x: hidden;
     font-family: 'PT Sans', sans-serif;
     color: rgba(27, 26, 27, 0.986)
 }
@@ -74,6 +73,16 @@ hr {
     width: 100%;
     height: 200px;
     border-radius: 7%;
+}
+
+.fa-play-circle {
+    position: absolute;
+    padding: 10px;
+}
+
+.work-cover:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .color-game-image {
